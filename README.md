@@ -16,8 +16,8 @@ http://localhost:3000/docs
 ## Passos para executar os testes:
 
 1. Execute o comando `npm run populate` ou `yarn populate`
-2. Execute o comando `npm run clustered` ou `yarn clustered`
-3. Execute o comando `docker compose up -d`
+2. Execute o comando `docker compose up -d`
+3. Execute o comando `npm run clustered` ou `yarn clustered`
 4. Execute o comando em um terminal separado `npm i -g artillery` ou `yarn add --global artillery`
 5. Execute o comando no terminal separado `artillery run ./load_tests/find_posts.yaml`
 
