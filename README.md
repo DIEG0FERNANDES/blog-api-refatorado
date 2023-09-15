@@ -25,41 +25,41 @@ Passos para executar os testes:
 Descrições do laptop
 
 Processador:
-	Number of cores		4 (max 4)
-	Number of threads	4 (max 4)
-	Manufacturer		GenuineIntel
-	Name			Intel Pentium N5000
-	Codename		Gemini Lake
-	Specification		Intel(R) Pentium(R) Silver N5000 CPU @ 1.10GHz
-	Package (platform ID)	Socket 1090 FCBGA (0x0)
-	CPUID			6.A.1
-	Extended CPUID		6.7A
-	Core Stepping		B0
-	Technology		14 nm
-	TDP Limit		6.0 Watts
-	Tjmax			105.0 °C
-	Core Speed		2585.0 MHz
-	Multiplier x Bus Speed	26.0 x 99.4 MHz
-	Base frequency (cores)	99.4 MHz
-	Base frequency (mem.)	99.4 MHz
-	Stock frequency		1100 MHz
-	Max frequency		0 MHz
-	Instructions sets	MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, EM64T, AES,
+-	Number of cores		4 (max 4)
+-	Number of threads	4 (max 4)
+-	Manufacturer		GenuineIntel
+-	Name			Intel Pentium N5000
+-	Codename		Gemini Lake
+-	Specification		Intel(R) Pentium(R) Silver N5000 CPU @ 1.10GHz
+-	Package (platform ID)	Socket 1090 FCBGA (0x0)
+-	CPUID			6.A.1
+-	Extended CPUID		6.7A
+-	Core Stepping		B0
+-	Technology		14 nm
+-	TDP Limit		6.0 Watts
+-	Tjmax			105.0 °C
+-	Core Speed		2585.0 MHz
+-	Multiplier x Bus Speed	26.0 x 99.4 MHz
+-	Base frequency (cores)	99.4 MHz
+-	Base frequency (mem.)	99.4 MHz
+-	Stock frequency		1100 MHz
+-	Max frequency		0 MHz
+-	Instructions sets	MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, EM64T, AES,
 
 GPU:
-    Name intel      UHD Graphics 605
-    Manufacturer    Dell
-    Codename		Gemini Lake
+-    Name intel      UHD Graphics 605
+-    Manufacturer    Dell
+-    Codename		Gemini Lake
 
 Memoria RAM:
-    4 gb ram
-    Memory type		DDR4
-    Max bandwidth		DDR4-2400 (1200 MHz)
-    Size			4096 MBytes
+-    4 gb ram
+-    Memory type		DDR4
+-    Max bandwidth		DDR4-2400 (1200 MHz)
+-    Size			4096 MBytes
 
 Resultado:
-    - duration: 10
-      arrivalRate: 150
+-      duration: 10
+-      arrivalRate: 150
 
 --------------------------------------
 Metrics for period to: 22:31:50(-0400) (width: 8.966s)
