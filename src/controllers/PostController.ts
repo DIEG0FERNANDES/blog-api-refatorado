@@ -1,6 +1,7 @@
 import { Repository } from 'typeorm'
 import { AppDataSource } from '../data-source'
 import { Post } from '../entities/Post'
+import { Params } from '../types/Params'
 
 export class PostController {
   private _repo: Repository<Post>
@@ -16,13 +17,15 @@ export class PostController {
     return savedPost
   }
 
-  async findAllByUserId(userId: number): Promise<Post[]> {
+  async findAllByUserId(userId: number, params: Params): Promise<Post[]> {
     const posts = await this._repo.find({
       where: {
         user: {
           id: userId,
         },
       },
+      skip: (params.page - 1) * params.perPage,
+      take: params.perPage,
     })
     return posts
   }

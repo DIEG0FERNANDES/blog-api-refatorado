@@ -1,0 +1,17 @@
+config:
+  target: "http://localhost:3000"
+  phases:
+    - duration: 10
+      arrivalRate: 150
+  variables:
+    userId: 1
+    page: 1
+    perPage: 100
+
+scenarios:
+  - name: "Find all posts by user Sidney"
+    flow:
+      - get:
+          url: "/posts/user/{{userId}}?page={{page}}&perPage={{perPage}}"
+          expect:
+            - statusCode: 200
