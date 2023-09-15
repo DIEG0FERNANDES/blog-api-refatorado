@@ -2,7 +2,7 @@
 
 API para estudo de testes de API.
 
-Passos para executar a API:
+## Passos para executar a API:
 
 1. Execute o comando `npm i` ou `yarn`
 2. Execute o comando `yarn start` ou `npm start`
@@ -13,7 +13,7 @@ Após executar a API, é possível acessar a documentação por meio da url:
 http://localhost:3000/docs
 ```
 
-Passos para executar os testes:
+## Passos para executar os testes:
 
 1. Execute o comando `npm run populate` ou `yarn populate`
 2. Execute o comando `npm run clustered` ou `yarn clustered`
@@ -57,7 +57,7 @@ Memoria RAM:
 -    Max bandwidth		DDR4-2400 (1200 MHz)
 -    Size			4096 MBytes
 
-Resultado:
+## Resultado
 -    duration: 10
 -    arrivalRate: 150
 
