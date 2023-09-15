@@ -22,7 +22,7 @@ Passos para executar os testes:
 5. Execute o comando no terminal separado `artillery run ./load_tests/find_posts.yaml`
 
 
-Descrições do laptop
+## Descrições do laptop
 
 Processador:
 -	Number of cores		4 (max 4)
