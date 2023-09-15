@@ -47,8 +47,8 @@ Processador:
 -	Instructions sets	MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, EM64T, AES,
 
 GPU:
--    Name intel      UHD Graphics 605
--    Manufacturer    Dell
+-    Name           Intel UHD Graphics 605
+-    Manufacturer   Dell
 -    Codename		Gemini Lake
 
 Memoria RAM:
@@ -58,10 +58,11 @@ Memoria RAM:
 -    Size			4096 MBytes
 
 Resultado:
--      duration: 10
--      arrivalRate: 150
+-    duration: 10
+-    arrivalRate: 150
 
---------------------------------------
+`
+    --------------------------------------
 Metrics for period to: 22:31:50(-0400) (width: 8.966s)
 --------------------------------------
 
@@ -145,3 +146,4 @@ vusers.session_length:
   median: ...................................................................... 2276.1
   p95: ......................................................................... 5168
   p99: ......................................................................... 5598.4
+`
